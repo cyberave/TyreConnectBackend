@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TyreConnect.Lexicon.WebApi.Host", "TyreConnect.Lexicon.WebApi.Host\TyreConnect.Lexicon.WebApi.Host.csproj", "{384D2722-D929-4E83-8B2E-9C008C198D93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TyreConnect.Lexicon.ApplicationCore", "TyreConnect.Lexicon.WebApi.ApplicationCore\TyreConnect.Lexicon.ApplicationCore.csproj", "{43B13F1C-56D8-4BAB-9DE6-869626B39CA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TyreConnect.Lexicon.WebApi", "TyreConnect.Lexicon.WebApi\TyreConnect.Lexicon.WebApi.csproj", "{CBC4059B-262B-49BA-928C-F2C4D44B85F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TyreConnect.Lexicon.Contracts", "TyreConnect.Lexicon.Contracts\TyreConnect.Lexicon.Contracts.csproj", "{9D0A7D1C-2502-4116-A013-406D9284C6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreConnect.Lexicon.Test.Unit", "TyreConnect.Lexicon.Test.Unit\TyreConnect.Lexicon.Test.Unit.csproj", "{2C837447-85BE-4FFF-9AF0-6A251EB8D034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384D2722-D929-4E83-8B2E-9C008C198D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384D2722-D929-4E83-8B2E-9C008C198D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384D2722-D929-4E83-8B2E-9C008C198D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384D2722-D929-4E83-8B2E-9C008C198D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B13F1C-56D8-4BAB-9DE6-869626B39CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B13F1C-56D8-4BAB-9DE6-869626B39CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B13F1C-56D8-4BAB-9DE6-869626B39CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B13F1C-56D8-4BAB-9DE6-869626B39CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC4059B-262B-49BA-928C-F2C4D44B85F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC4059B-262B-49BA-928C-F2C4D44B85F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC4059B-262B-49BA-928C-F2C4D44B85F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC4059B-262B-49BA-928C-F2C4D44B85F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0A7D1C-2502-4116-A013-406D9284C6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0A7D1C-2502-4116-A013-406D9284C6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0A7D1C-2502-4116-A013-406D9284C6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0A7D1C-2502-4116-A013-406D9284C6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C837447-85BE-4FFF-9AF0-6A251EB8D034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C837447-85BE-4FFF-9AF0-6A251EB8D034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C837447-85BE-4FFF-9AF0-6A251EB8D034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C837447-85BE-4FFF-9AF0-6A251EB8D034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CA91207-CFE1-4630-81E5-7A60525D4975}
+	EndGlobalSection
+EndGlobal
